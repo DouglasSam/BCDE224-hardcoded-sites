@@ -1,0 +1,72 @@
+:root {
+    --agora-primary-color: #FFD700; /* Light joyful color (Gold) */
+    --agora-secondary-color: #FF6347; /* Contrasting color (Tomato) */
+    --agora-secondary-hover-color: #FF4500; /* Slightly darker tomato for hover */
+}
+
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.profile-menu {
+    width: 3rem;
+    height: 3rem;
+}
+
+.main-links .nav-link {
+    font-size: 1.25rem;
+    padding: 0.1rem;
+    color: black;
+}
+
+.main-links .nav-link:hover {
+    color: dimgray;
+}
+
+/* Styling for in-paragraph links */
+p a {
+
+    text-decoration: none;
+}
+
+p a:hover {
+    color: var(--agora-secondary-color);
+    text-decoration: none;
+}
+
+.fs-7 {
+    font-size:0.75rem
+}
+
+.bg-agora-primary {
+    background-color: var(--agora-primary-color);
+}
+
+.bg-agora-secondary {
+    background-color: var(--agora-secondary-color);
+}
+
+.btn-agora-secondary {
+    --bs-btn-color: #FFF;
+    --bs-btn-bg: var(--agora-secondary-color);
+    --bs-btn-border-color: var(--agora-secondary-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--agora-secondary-hover-color);
+    --bs-btn-hover-border-color: var(--agora-secondary-hover-color);
+    --bs-btn-focus-shadow-rgb: 255, 99, 71;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--agora-secondary-hover-color);
+    --bs-btn-active-border-color: var(--agora-secondary-hover-color);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--agora-secondary-color);
+    --bs-btn-disabled-border-color: var(--agora-secondary-color);
+}
+
+.auction-img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Ensures the image is square */
+    object-fit: cover; /* Crops the image to fit the square */
+}
