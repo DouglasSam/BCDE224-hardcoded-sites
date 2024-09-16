@@ -22,6 +22,10 @@ body {
     border-color: var(--agora-primary-color) !important;
 }
 
+.border-agora-hr {
+    border-color: #c7c8c9 !important;
+}
+
 .border-agora-secondary {
     border-color: var(--agora-secondary-color) !important;
 }
