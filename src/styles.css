@@ -55,6 +55,12 @@ body {
     color: var(--agora-secondary-contrast);
 }
 
+.title-link {
+    color: black !important;
+    text-decoration: none !important;
+    font-size: inherit;
+}
+
 .main-links .nav-link:hover {
     color: var(--agora-secondary-contrast-hover);
 }
