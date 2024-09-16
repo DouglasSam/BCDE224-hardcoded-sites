@@ -1,7 +1,11 @@
 :root {
     --agora-primary-color: #FFD700; /* Light joyful color (Gold) */
-    --agora-secondary-color: #0d8d26; /* Contrasting color (Tomato) */
-    --agora-secondary-hover-color: #0a731e; /* Slightly darker tomato for hover */
+    --agora-primary-rgb: 255, 215, 0; /* Light joyful color (Gold) */
+    --agora-secondary-color: #009100; /* Contrasting color (Pine green) */
+    --agora-secondary-rgb: 0, 145, 0; /* Contrasting color (Pine green) */
+    --agora-secondary-hover-color: #006400; /* Slightly darker pine green for hover */
+    --agora-secondary-contrast: #F0F0F0;
+    --agora-secondary-contrast-hover: #c8c8c8;
 }
 
 .border-agora-primary {
@@ -10,6 +14,14 @@
 
 .border-agora-secondary {
     border-color: var(--agora-secondary-color) !important;
+}
+
+.text-agora-secondary-contrast {
+    color: var(--agora-secondary-contrast); /* Light grey color */
+}
+
+.auction-item {
+    margin: 0.5rem; /* Adjust the value as needed for the desired gap */
 }
 
 .logo {
@@ -25,10 +37,20 @@
 .main-links .nav-link {
     font-size: 1.25rem;
     padding: 0.1rem;
-    color: black;
+    color: var(--agora-secondary-contrast);
 }
 
 .main-links .nav-link:hover {
+    color: var(--agora-secondary-contrast-hover);
+}
+
+.header-links .nav-link {
+    font-size: 1.25rem;
+    padding: 0.1rem;
+    color: black;
+}
+
+.header-links .nav-link:hover {
     color: dimgray;
 }
 
@@ -53,6 +75,14 @@ p a:hover {
 
 .bg-agora-secondary {
     background-color: var(--agora-secondary-color);
+}
+
+.bg-agora-primary-light {
+    background-color: rgba(var(--agora-primary-rgb), 0.5) !important;
+}
+
+.bg-agora-secondary-light {
+    background-color: rgba(var(--agora-secondary-rgb),0.5);
 }
 
 .btn-agora-secondary {
