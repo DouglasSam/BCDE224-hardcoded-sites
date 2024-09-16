@@ -35,10 +35,6 @@ body {
     color: var(--agora-secondary-contrast); /* Light grey color */
 }
 
-.auction-item {
-    margin: 0.5rem; /* Adjust the value as needed for the desired gap */
-}
-
 .logo {
     width: 5rem;
     height: 5rem;
