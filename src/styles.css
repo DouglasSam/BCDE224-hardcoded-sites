@@ -8,6 +8,16 @@
     --agora-secondary-contrast-hover: #c8c8c8;
 }
 
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .border-agora-primary {
     border-color: var(--agora-primary-color) !important;
 }
