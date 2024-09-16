@@ -68,15 +68,15 @@ body {
     color: dimgray;
 }
 
-/* Styling for in-paragraph links */
-p a {
-
-    text-decoration: none;
+.link-agora-secondary {
+    color: var(--agora-secondary-color) !important;
+    -webkit-text-decoration-color: var(--agora-secondary-color) !important;
+    text-decoration-color: var(--agora-secondary-color) !important;
 }
-
-p a:hover {
-    color: var(--agora-secondary-color);
-    text-decoration: none;
+.link-agora-secondary:hover, .link-agora-secondary:focus {
+    color: var(--agora-secondary-hover-color) !important;
+    -webkit-text-decoration-color: var(--agora-secondary-hover-color) !important;
+    text-decoration-color: var(--agora-secondary-hover-color) !important;
 }
 
 .fs-7 {
