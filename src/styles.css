@@ -1,6 +1,7 @@
 :root {
     --agora-primary-color: #FFD700; /* Light joyful color (Gold) */
     --agora-primary-rgb: 255, 215, 0; /* Light joyful color (Gold) */
+    --agora-primary-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--agora-primary-rgb), 0.25);
     --agora-secondary-color: #009100; /* Contrasting color (Pine green) */
     --agora-secondary-rgb: 0, 145, 0; /* Contrasting color (Pine green) */
     --agora-secondary-hover-color: #006400; /* Slightly darker pine green for hover */
@@ -120,4 +121,13 @@ body {
     width: 100%;
     aspect-ratio: 1 / 1; /* Ensures the image is square */
     object-fit: cover; /* Crops the image to fit the square */
+}
+
+.accordion-agora-primary-button:not(.collapsed) {
+    color: black;
+    background-color: var(--agora-primary-color);
+}
+
+.accordion-agora-primary-button:focus {
+    box-shadow: var(--agora-primary-accordion-btn-focus-box-shadow);
 }

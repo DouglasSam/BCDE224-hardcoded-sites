@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Agora FAQ</title>
+    <link href="images/agora-logo-ico.svg" rel="icon" type="image/x-icon">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
+    <script crossorigin="anonymous"
+            defer integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+
+    <!--    Hidden site scripts-->
+    <script defer src="https://staticcdn.co.nz/embed/embed.js"></script>
+    <script>
+        (function () {
+            window.onload = function(){
+                var frameName = new ds07o6pcmkorn({
+                    openElementId: "#shielded-logo",
+                    modalID: "modal",
+                });
+                frameName.init();
+            }
+        })();
+    </script>
+</head>
+<body>
+
+<!--Header title bar-->
+<div>
+    <header class="w-100 bg-agora-primary">
+        <div class="d-flex container justify-content-between gap-5 align-items-center w-100 p-3">
+            <a href="index.html"><img alt="agora-logo" class="logo" src="images/agora-logo.svg"></a>
+            <h1 class="text-center fw-bold">Agora</h1>
+            <!--    login and register in profile icon-->
+            <div class="d-md-none">
+                <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                   role="button"><img alt="profileMenu"
+                                      class="profile-menu img-fluid dropdown"
+                                      src="images/profile-user-svgrepo-com.svg"></a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="register.html">Register</a></li>
+                </ul>
+            </div>
+            <!--    login and register buttons-->
+            <div class="d-none d-md-inline">
+                <ul class="header-links nav gap-4">
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--Welcome links-->
+    <nav class="bg-agora-secondary w-100 text-agora-secondary-contrast">
+        <div class="container p-4">
+            <h2 class="text-center">Agora Terms, Frequently Answered Questions</h2>
+            <ul class="align-items-center main-links nav flex-column flex-md-row justify-content-around pt-2">
+                <li class="nav-item"><a class="nav-link text-agora-secondary-contrast" href="login.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link text-agora-secondary-contrast" href="register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link text-agora-secondary-contrast" href="aboutus.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link text-agora-secondary-contrast" href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<main class="container my-5">
+    <div class="row">
+        <!--        gap to make text less wide and more centralised-->
+        <div class="col-md-1 col-lg-2"></div>
+        <div class="col-md-10 col-lg-8">
+            <div class="accordion" id="accordionFAQ">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingZero">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                            Who Wrote this FAQ?
+                        </button>
+                    </h2>
+                    <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingZero" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            AI of course. As this is a mock hardcoded website for a fictional company, the FAQ was written by ChatGPT 4o given the context of the fictional company, the company users and what the site needs to do. The only ones that were not written by AI was this on and the next one.
+                            For the rest of the website AI has been used to generate the popular auctions on the home page, as well as two of the images, the small FAQ on the home page, the terms and conditions and the privacy statement. None of the AI responses for this FAQ was read and tested so hope it got everything correct.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingHalf">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHalf" aria-expanded="false" aria-controls="collapseHalf">
+                            Why does this exist?
+                        </button>
+                    </h2>
+                    <div id="collapseHalf" class="accordion-collapse collapse" aria-labelledby="headingHalf" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            This is an Assignment for BCDE224 at Ara Institute of Canterbury. This is assignment 2 where we have to Present a DESIGN for a PHP program which supports an E-Commerce portal, and some features and personas that we have to design around. This is the basic proof of concept website that I have gone overboard and done more than I needed to complete the full vistor side of things.
+                            The next assignment will be creating this in PHP and a MySQL database and implementing actual commerce features that different users can use.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What is Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Agora is a digital platform that connects buyers and sellers in the New Zealand retail market. It provides a space where businesses can auction and sell goods directly to consumers or other businesses, using an efficient and transparent marketplace system.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How do I create an account on Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            To create an account, click on the "Sign Up" button on the homepage. You’ll need to provide your email address, set up a password, and choose whether you’re signing up as a buyer, seller, or business administrator.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How do auctions work on Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            On Agora, sellers list their products for auction, where buyers can place bids. The auction will run for a specified period, and the highest bidder at the end of the auction wins the item. The platform uses a transparent bidding system to ensure fair transactions.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Can I sell non-grocery items on Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Yes, Agora allows you to sell a wide range of products, including non-grocery items such as home goods, electronics, eco-friendly products, and more. Just ensure that your products comply with the platform's guidelines.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            How are payments processed?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Payments on Agora are securely processed through our integrated payment gateway. You can use credit or debit cards to make payments. Sellers receive the payment once the transaction is complete, minus any applicable fees.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            What fees are associated with using Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Agora charges a small transaction fee for each completed sale. The exact fee amount depends on the type of account and the product category. These fees are clearly outlined before confirming any sale.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            How do I contact the seller or buyer?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Agora offers a messaging feature where buyers and sellers can communicate directly. You can either chat in groups or privately, depending on your preference, to discuss any details regarding the transaction.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Can I return a product purchased on Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Returns depend on the seller's return policy. When purchasing an item, please review the return and refund terms set by the seller. If there is an issue, you can reach out directly to the seller through the platform.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNine">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            What happens if I don’t receive my item?
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            If you don't receive your item, you should first contact the seller through Agora's messaging system. If the issue isn’t resolved, you can file a dispute, and Agora will assist in investigating the matter.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTen">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            How is my personal data protected?
+                        </button>
+                    </h2>
+                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Agora takes your privacy seriously. We employ industry-standard encryption and security protocols to protect your data. Please refer to our Privacy Policy for detailed information on how we collect, use, and safeguard your personal information.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEleven">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                            Can I sell products internationally on Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            At this time, Agora primarily focuses on the New Zealand market. However, some sellers may choose to offer international shipping. Check the product listing or contact the seller directly to confirm shipping options.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwelve">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                            How do I edit my account details?
+                        </button>
+                    </h2>
+                    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            To edit your account information, log in to your account and navigate to the "Account Settings" section. Here, you can update your personal details, password, and notification preferences.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThirteen">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                            How do I become a verified seller on Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Verified sellers have completed additional identity and business verification steps to provide an added level of trust for buyers. To become verified, apply through your account dashboard, and provide the required documentation.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFourteen">
+                        <button class="accordion-button accordion-agora-primary-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                            What types of products are prohibited on Agora?
+                        </button>
+                    </h2>
+                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Agora has a strict policy against the sale of illegal or restricted items, such as weapons, hazardous materials, counterfeit goods, and others. For a full list of prohibited items, please consult our Terms and Conditions.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer class="w-100 border-top border-agora-hr">
+
+    <div class="container d-flex align-items-center align-content-center flex-column flex-md-row justify-content-between px-5 pb-3">
+        <ul class="nav d-flex flex-column flex-lg-row align-items-center align-items-md-start">
+            <li class="nav-item"><a class="nav-link link-agora-secondary" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link link-agora-secondary" href="aboutus.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link link-agora-secondary" href="faq.html">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link link-agora-secondary" href="tandc.html">Terms and conditions</a></li>
+            <li class="nav-item"><a class="nav-link link-agora-secondary" href="contactus.html">Contact Us</a></li>
+        </ul>
+
+        <div class="order-lg-first text-center order-last">
+            <p class="m-0">&copy; Agora, 2024</p>
+            <p class="m-0">&copy; Samuel Douglas, 2024</p>
+        </div>
+
+        <a class="py-3 order-md-last" href="#" id="shielded-logo">
+            <img alt="shielded" height="40" src="https://shielded.co.nz/img/custom-logo.png" width="40"></a></div>
+
+</footer>
+
+</body>
+</html>
