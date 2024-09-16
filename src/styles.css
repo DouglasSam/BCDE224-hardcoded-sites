@@ -1,9 +1,16 @@
 :root {
     --agora-primary-color: #FFD700; /* Light joyful color (Gold) */
-    --agora-secondary-color: #FF6347; /* Contrasting color (Tomato) */
-    --agora-secondary-hover-color: #FF4500; /* Slightly darker tomato for hover */
+    --agora-secondary-color: #0d8d26; /* Contrasting color (Tomato) */
+    --agora-secondary-hover-color: #0a731e; /* Slightly darker tomato for hover */
 }
 
+.border-agora-primary {
+    border-color: var(--agora-primary-color) !important;
+}
+
+.border-agora-secondary {
+    border-color: var(--agora-secondary-color) !important;
+}
 
 .logo {
     width: 5rem;
