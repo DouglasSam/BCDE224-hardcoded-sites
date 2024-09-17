@@ -1,6 +1,7 @@
 :root {
     --agora-primary-color: #FFD700; /* Light joyful color (Gold) */
     --agora-primary-rgb: 255, 215, 0; /* Light joyful color (Gold) */
+    --agora-primary-hover-color: #E6C200; /* Slightly darker gold for hover */
     --agora-primary-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--agora-primary-rgb), 0.25);
     --agora-secondary-color: #009100; /* Contrasting color (Pine green) */
     --agora-secondary-rgb: 0, 145, 0; /* Contrasting color (Pine green) */
@@ -17,6 +18,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.rounded-corners {
+    border-radius: 10px; /* Adjust the value as needed */
 }
 
 .border-agora-primary {
@@ -71,6 +76,11 @@ body {
     color: dimgray;
 }
 
+.category-link {
+    color: black;
+    text-decoration: none;
+}
+
 .link-agora-secondary {
     color: var(--agora-secondary-color) !important;
     -webkit-text-decoration-color: var(--agora-secondary-color) !important;
@@ -119,10 +129,31 @@ body {
     --bs-btn-disabled-border-color: var(--agora-secondary-color);
 }
 
+.btn-agora-primary {
+    --bs-btn-color: #222;
+    --bs-btn-bg: var(--agora-primary-color);
+    --bs-btn-border-color: var(--agora-primary-color);
+    --bs-btn-hover-color: #444;
+    --bs-btn-hover-bg: var(--agora-primary-hover-color);
+    --bs-btn-hover-border-color: var(--agora-primary-hover-color);
+    --bs-btn-focus-shadow-rgb: 255, 99, 71;
+    --bs-btn-active-color: #222;
+    --bs-btn-active-bg: var(--agora-primary-rgb);
+    --bs-btn-active-border-color: var(--agora-primary-hover-color);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #222;
+    --bs-btn-disabled-bg: var(--agora-primary-color);
+    --bs-btn-disabled-border-color: var(--agora-primary-color);
+}
+
 .auction-img {
     width: 100%;
     aspect-ratio: 1 / 1; /* Ensures the image is square */
     object-fit: cover; /* Crops the image to fit the square */
+}
+
+.user-profile-menu {
+    border-radius: 50%;
 }
 
 .accordion-agora-primary-button:not(.collapsed) {
@@ -132,4 +163,19 @@ body {
 
 .accordion-agora-primary-button:focus {
     box-shadow: var(--agora-primary-accordion-btn-focus-box-shadow);
+}
+
+.dropdown-text {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: var(--bs-dropdown-link-color);
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    /*border-radius: var(--bs-dropdown-item-border-radius, 0);*/
 }
