@@ -56,14 +56,24 @@ body {
     color: var(--agora-secondary-contrast);
 }
 
+.main-links .nav-link:hover {
+    color: var(--agora-secondary-contrast-hover);
+}
+
+.white-link {
+    padding: 0.1rem;
+    color: var(--agora-secondary-contrast);
+    text-decoration: none;
+}
+
+.white-links .nav-link:hover {
+    color: var(--agora-secondary-contrast-hover);
+}
+
 .title-link {
     color: black !important;
     text-decoration: none !important;
     font-size: inherit;
-}
-
-.main-links .nav-link:hover {
-    color: var(--agora-secondary-contrast-hover);
 }
 
 .header-links .nav-link {
