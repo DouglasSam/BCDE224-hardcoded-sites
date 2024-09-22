@@ -50,6 +50,15 @@
             <p>Already have an account? <a class="link-agora-secondary" href="login.html">Login</a></p>
             <form method="post" action="userIndex.html">
                 <div class="mb-3">
+                    <label class="form-label" for="accountType">Account Type</label>
+                    <select class="form-select" id="accountType" required>
+                        <option value="" disabled selected>Select your role</option>
+                        <option value="admin">Admin</option>
+                        <option value="buyer">Buyer</option>
+                        <option value="seller">Seller</option>
+                    </select>
+                </div>
+                <div class="mb-3">
                     <label class="form-label" for="email">Email address</label>
                     <input class="form-control" id="email" type="email" required>
                 </div>
